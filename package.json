@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackajax/personal-website.git"
+  },
+  "keywords": [
+    "jaka",
+    "personal",
+    "website"
+  ],
+  "author": "Jaka Abdillah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackajax/personal-website/issues"
+  },
+  "homepage": "https://github.com/jackajax/personal-website#readme"
+}
