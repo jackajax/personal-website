@@ -1,1 +1,1 @@
-Ini ada informasi dari website personal saya
+Ini ada informasi dari website personal saya. Selamat menjelajah!
