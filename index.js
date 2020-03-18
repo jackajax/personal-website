@@ -4,8 +4,14 @@ var http = require('http'),
     port = 8080;
 
 var server = http.createServer(function(req, res){
+    fs.readFile('./index.html', (err, data) => {
+    
+    if(err) throw err;
+    
     res.writeHead(200, {'Content-Type': 'text/html'});
-    return res.end('<h1>My Personal Website<h1>');
+    res.write(data);
+    return res.end();
+    });
 });
 
 server.listen(port);
